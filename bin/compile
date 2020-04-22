@@ -128,11 +128,10 @@ sleep 5
 
 echo ""
 echo ""
-echo "!!----- WARNING -----!!"
-echo "Insert heroku ps:scale worker=1"
-echo "in dorder to run the server"
-echo "---------<o/-----------"
-echo ""
+echo "Scaling heroku workder"
+heroku ps:scale worker=1
+echo "Done"
+echo -n ""
 echo ""
 
 sleep 5
